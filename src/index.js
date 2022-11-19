@@ -4,10 +4,8 @@ import './index.css';
 import App from './App';
 import { AppProvider } from './context';
 ReactDOM.render(
-  <React.StrictMode>
     <AppProvider>
       <App />
-    </AppProvider>
-  </React.StrictMode>,
+    </AppProvider>,
   document.getElementById('root')
 );
